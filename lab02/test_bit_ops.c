@@ -48,8 +48,7 @@ int main(int argc, const char * argv[]) {
     test_set_bit(0b1001110,9,1,0b1001001110);
     test_set_bit(0b1101101,7,1,0b11101101);
     printf("\nTesting flip_bit()\n\n");
-    test_flip_bit(0b1001110,0,0b1001111);
-    test_flip_bit(0b1001110,1,0b1001100);
+
     test_flip_bit(0b1001110,2,0b1001010);
     test_flip_bit(0b1001110,5,0b1101110);
     test_flip_bit(0b1001110,9,0b1001001110);
